@@ -1,0 +1,44 @@
+{
+	"name": "a4p_autogroups",
+	"vendor": "apps4print",
+	"type": "oxid",
+	"price": "0.00",
+	"license": "unknown",
+	"desc": {
+		"de": "neue Benutzer zu festgelegten Gruppen hinzufügen",
+		"en": "add new users to defined groups"
+	},
+	"tags": [
+		"groups",
+		"assign",
+		"user"
+	],
+	"versions": {
+		"1.0.1": {
+			"project": "https://github.com/a4p-ASD/a4p_autogroups",
+			"url": "https://github.com/a4p-ASD/a4p_autogroups/archive/1.0.1.zip",
+			"supported": [
+				"4.9",
+			],
+			"mapping": [
+				{
+					"src": "./",
+					"dest": "modules/"
+				}
+			]
+		},
+		"1.0.0": {
+			"project": "http://apps4print.com",
+			"url": "http://test.a4p-tools.apps4print.com/a4p_Installer/_a4p_ModuleVersions/a4p_autogroups-1.0.0.zip",
+			"supported": [
+				"4.7"
+			],
+			"mapping": [
+				{
+					"src": "./",
+					"dest": "modules/"
+				}
+			]
+		}
+	}
+}
